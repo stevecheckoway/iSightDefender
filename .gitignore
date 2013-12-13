@@ -1,13 +1,4 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+DerivedData
+build
+iSightDefender.xcodeproj/project.xcworkspace
+iSightDefender.xcodeproj/xcuserdata

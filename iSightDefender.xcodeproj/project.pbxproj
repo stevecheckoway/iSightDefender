@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA98309B179D881D00BEF064 /* iSightDefenderDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA983099179D881D00BEF064 /* iSightDefenderDriver.cpp */; };
+		AA98309C179D881D00BEF064 /* iSightDefenderDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = AA98309A179D881D00BEF064 /* iSightDefenderDriver.h */; };
+		AAC2357A179734E900DD44A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAC23578179734E900DD44A7 /* InfoPlist.strings */; };
+		AAC9105E179DF7E500D87C83 /* iSightDefenderHack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAC9105C179DF7E500D87C83 /* iSightDefenderHack.cpp */; };
+		AAC9105F179DF7E500D87C83 /* iSightDefenderHack.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC9105D179DF7E500D87C83 /* iSightDefenderHack.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA983099179D881D00BEF064 /* iSightDefenderDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iSightDefenderDriver.cpp; sourceTree = "<group>"; };
+		AA98309A179D881D00BEF064 /* iSightDefenderDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSightDefenderDriver.h; sourceTree = "<group>"; };
+		AAC23570179734E900DD44A7 /* iSightDefender.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSightDefender.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC23574179734E900DD44A7 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		AAC23577179734E900DD44A7 /* iSightDefender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSightDefender-Info.plist"; sourceTree = "<group>"; };
+		AAC23579179734E900DD44A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAC2357E179734E900DD44A7 /* iSightDefender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSightDefender-Prefix.pch"; sourceTree = "<group>"; };
+		AAC9105C179DF7E500D87C83 /* iSightDefenderHack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iSightDefenderHack.cpp; sourceTree = "<group>"; };
+		AAC9105D179DF7E500D87C83 /* iSightDefenderHack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSightDefenderHack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC2356B179734E900DD44A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC23565179734E900DD44A7 = {
+			isa = PBXGroup;
+			children = (
+				AAC23575179734E900DD44A7 /* iSightDefender */,
+				AAC23572179734E900DD44A7 /* Frameworks */,
+				AAC23571179734E900DD44A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC23571179734E900DD44A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC23570179734E900DD44A7 /* iSightDefender.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC23572179734E900DD44A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC23573179734E900DD44A7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC23573179734E900DD44A7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC23574179734E900DD44A7 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AAC23575179734E900DD44A7 /* iSightDefender */ = {
+			isa = PBXGroup;
+			children = (
+				AA98309A179D881D00BEF064 /* iSightDefenderDriver.h */,
+				AA983099179D881D00BEF064 /* iSightDefenderDriver.cpp */,
+				AAC9105D179DF7E500D87C83 /* iSightDefenderHack.h */,
+				AAC9105C179DF7E500D87C83 /* iSightDefenderHack.cpp */,
+				AAC23576179734E900DD44A7 /* Supporting Files */,
+			);
+			path = iSightDefender;
+			sourceTree = "<group>";
+		};
+		AAC23576179734E900DD44A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC23577179734E900DD44A7 /* iSightDefender-Info.plist */,
+				AAC23578179734E900DD44A7 /* InfoPlist.strings */,
+				AAC2357E179734E900DD44A7 /* iSightDefender-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAC2356C179734E900DD44A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA98309C179D881D00BEF064 /* iSightDefenderDriver.h in Headers */,
+				AAC9105F179DF7E500D87C83 /* iSightDefenderHack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AAC2356F179734E900DD44A7 /* iSightDefender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC23581179734E900DD44A7 /* Build configuration list for PBXNativeTarget "iSightDefender" */;
+			buildPhases = (
+				AAC2356A179734E900DD44A7 /* Sources */,
+				AAC2356B179734E900DD44A7 /* Frameworks */,
+				AAC2356C179734E900DD44A7 /* Headers */,
+				AAC2356D179734E900DD44A7 /* Resources */,
+				AAC2356E179734E900DD44A7 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSightDefender;
+			productName = iSightDefender;
+			productReference = AAC23570179734E900DD44A7 /* iSightDefender.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC23566179734E900DD44A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stephen Checkoway";
+			};
+			buildConfigurationList = AAC23569179734E900DD44A7 /* Build configuration list for PBXProject "iSightDefender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAC23565179734E900DD44A7;
+			productRefGroup = AAC23571179734E900DD44A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC2356F179734E900DD44A7 /* iSightDefender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC2356D179734E900DD44A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC2357A179734E900DD44A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		AAC2356E179734E900DD44A7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC2356A179734E900DD44A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA98309B179D881D00BEF064 /* iSightDefenderDriver.cpp in Sources */,
+				AAC9105E179DF7E500D87C83 /* iSightDefenderHack.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAC23578179734E900DD44A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC23579179734E900DD44A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC2357F179734E900DD44A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		AAC23580179734E900DD44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		AAC23582179734E900DD44A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSightDefender/iSightDefender-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "iSightDefender/iSightDefender-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULE_NAME = edu.jhu.iSightDefender;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		AAC23583179734E900DD44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSightDefender/iSightDefender-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "iSightDefender/iSightDefender-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULE_NAME = edu.jhu.iSightDefender;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC23569179734E900DD44A7 /* Build configuration list for PBXProject "iSightDefender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC2357F179734E900DD44A7 /* Debug */,
+				AAC23580179734E900DD44A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC23581179734E900DD44A7 /* Build configuration list for PBXNativeTarget "iSightDefender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC23582179734E900DD44A7 /* Debug */,
+				AAC23583179734E900DD44A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC23566179734E900DD44A7 /* Project object */;
+}
